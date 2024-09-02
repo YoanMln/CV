@@ -1,0 +1,40 @@
+.title {
+  &-small {
+    letter-spacing: 0.5rem;
+    font-size: 1.7rem;
+  }
+}
+
+.title-main {
+  &-small {
+    letter-spacing: 0.5rem;
+    font-size: 1.7rem;
+    background: #383444;
+    color: white;
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+    text-align: center;
+    display: inline-block;
+    @extend .font-open;
+  }
+}
+
+.title-aside {
+  &-small {
+    letter-spacing: 0.5rem;
+    font-size: 1.7rem;
+    background-color: #605c64;
+    color: white;
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+    text-align: center;
+    display: inline-block;
+  }
+}
+
+.text {
+  &-primary {
+    color: var(--primary);
+  }
+  &-hint {
+    color: var(--hint);
+  }
+}
